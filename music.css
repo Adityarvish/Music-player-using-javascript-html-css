@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shantell+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Montserrat', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px; ;
+    background-color: rgb(99, 86, 70);
+    color: antiquewhite;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 48px;
+    padding: 0 8px;
+}
+.container{
+    min-height: 72vh;
+    background-color: papayawhip;
+    color: rgb(99, 86, 70);
+    font-family: 'Shantell Sans', cursive;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 34px;
+    background-image: url('bg4.jpg');
+     
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.bottom{
+    display: flex;
+    position: sticky;
+    height: 130px; 
+    color: antiquewhite;
+    background-color:rgb(99, 86, 70) ;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#progress{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.icons{
+    margin: top 14px;;
+}
+.icons i {
+    cursor: pointer;
+}
+.song{
+    height: 50px;
+    display: flex;
+    background-color: antiquewhite;
+    
+    color: rgb(99, 86, 70);
+    margin: 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.song img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;  
+    
+    
+}
+.time{
+    margin: 0 23px;
+}
+.time i{
+    cursor: pointer;
+}
+.itemcont{
+    margin-top: 74px ;
+}
+.info{
+     position: absolute;
+     left: 9vw;
+}
+.info img{
+    width: 50px;
+    border-radius: 25px;
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+
+}
